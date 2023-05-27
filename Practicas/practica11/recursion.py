@@ -45,7 +45,6 @@ while True:
     Ingrese la opcion: """))
     if opcion == 1:
         numero=int(input("\nIngrese el numero: "))
-        Conversion(numero)
         print(f"Entrada : {numero}\nSalida : {Conversion(numero)}")
 
     elif opcion == 2:
